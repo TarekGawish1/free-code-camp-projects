@@ -14,7 +14,7 @@
         </h1>
     </header>
     <main role="main">
-        <article>
+        <section>
             <h2>
                 Cat Photos
             </h2>
@@ -22,9 +22,9 @@
                 see more <a href="https://www.freecodecamp.org" target="_blank">cat photos</a> in our gallery.
             </p>
             <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="cat photo">
-        </article>
+        </section>
 
-        <article>
+        <section>
             <h2>
                 Cat Lists
             </h2>
@@ -52,11 +52,37 @@
                     Cats <em>hate</em> other cats
                 </figcaption>
             </figure>
-        </article>
-        <article>
-            
-        </article>
+        </section>
+        <section>
+            <h2>
+                Cat Form
+            </h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo" role="form">
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+
+                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor</label>
+
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+                </fieldset>
+            </form>
+            <form role="form">
+                <fieldset>
+                    <legend>What's your cat's personality?</legend>
+                    <label><input type="checkbox" checked>Loving</label>
+                    <label><input type="checkbox">Lazy</label>
+                    <label><input type="checkbox">Energetic</label>
+                </fieldset>
+            </form>
+            <input type="text" placeholder="cat photo URL">
+            <button type="submit">Submit</button>
+        </section>
     </main>
+    <footer>
+        <p>
+            No Copyright - <a href="https://www.freecodecamp.org/">freecodecamp.org</a>
+        </p>
+    </footer>
 </body>
 
 </html>
