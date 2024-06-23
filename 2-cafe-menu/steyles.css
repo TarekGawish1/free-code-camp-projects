@@ -4,3 +4,7 @@
 body{
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
+header, main, footer{
+    background-color: burlywood;
+}
+
